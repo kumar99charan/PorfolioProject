@@ -1,4 +1,7 @@
 import defaultImage from "../resources/images/dp.jpg"
+import amazon from "../resources/images/Amazon.jpg"
+import mern from "../resources/images/mern.png"
+import tic from "../resources/images/images.jpeg"
 import { CodeRounded, ContactPageRounded, FacebookRounded, HomeRounded, SchoolRounded } from "@mui/icons-material";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import MailIcon from '@mui/icons-material/Mail';
@@ -23,6 +26,7 @@ export const bioinfo=[
     
 
 
+
 export const IconTitleMap={
     "Home": <HomeRounded className="icon"/>,
     "Academics": <SchoolRounded className="icon"/>,
@@ -33,10 +37,26 @@ export const IconTitleMap={
     "Instagram":<InstagramIcon className="icon"/>,
     "Facebook":<FacebookIcon className="icon"/>,
     "Mail":<MailIcon className="icon"/>
-
-
-
 }
+
+export const projectData = [
+  {
+    src:amazon,
+    title: 'Amazon Clone',
+    description: 'HTML,CSS',
+  },
+  {
+    src:tic,
+    title: 'Tic-Tac-Toe',
+    description: 'HTML,CSS,JS',
+  },
+  {
+    src:mern,
+    title: 'Portfolio Website',
+    description: 'React Js',
+  },
+];
+
 
 export const DEFAULT_SIDE_MENU=[
     {
