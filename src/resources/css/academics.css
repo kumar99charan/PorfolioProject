@@ -1,0 +1,127 @@
+@import url("./shared_animtion.css");
+
+.box{
+    height:70vh;
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:2px solid black;
+}
+
+.box2{
+    height:70vh;
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:2px solid black;
+}
+
+.container1{
+    /* height: */
+    height:30vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: cener;
+    /* background-color: beige; */
+    
+}
+
+.outside1{
+    height:75vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border:2px solid black; */
+    /* background-image: url("../images/alexander-grey-62vi3TG5EDg-unsplash.jpg"); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(50px);
+    /* filter: blur(1px); /* Adjust blur amount here */
+    /* z-index: 2;  */
+    
+   
+    
+}
+
+
+.outside2{
+    height:50vh;
+    width:80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border:2px solid black; */
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 1px 1px 15px rgb(114, 109, 109);
+    /* animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode:both; */
+    animation: fadeIn 2s ease-in-out;
+    /* background-color: #8e9aaf; */
+    /* background-image: url("../images/alexander-grey-62vi3TG5EDg-unsplash.jpg"); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* filter: blur(1px); */
+    backdrop-filter: blur(10px);
+
+    z-index: 1;
+}
+/* .outside2::before{
+    background-image: url("../images/alexander-grey-62vi3TG5EDg-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+     filter: blur(5px); 
+    z-index: 1;  
+    
+    
+} */
+
+.acc{
+    width:100%;
+    /* background-color: rgb(244, 245, 246); */
+    /* border:2px solid black; */
+}
+.acc:hover{
+    border:1px solid black;
+    
+}
+.inside{
+    /* border:2px solid black; */
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1vh;
+}
+/* .detail-box{
+    background-color: aliceblue;
+    border-radius: 5px 5px 5px 5px;
+}
+.detail-box:hover{
+    background-color: antiquewhite;
+} */
+/* .summary{
+    background-color: #8696d8;
+    border-radius: 5px 5px 5px 5px;
+}
+.summary:hover{
+    background-color: blanchedalmond;
+    
+    
+} */
+
+
+
+

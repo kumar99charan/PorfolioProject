@@ -1,0 +1,63 @@
+@import url("./shared_animtion.css");
+
+.work{
+    height:70vh;
+    width:80%;
+    /* border:2px solid rgb(0, 0, 0); */
+    display:flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode:both;
+    /* border-radius: 10%;
+    box-shadow: 1px 1px 20px rgb(145, 108, 147); */
+}
+.outside{
+    height:80vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* opacity: ; */
+    
+}
+/* .Avatar{
+    height:10vh;
+    border:1px solid black;
+} */
+.item-box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:5px;
+}
+.items{
+    height:auto;
+    /* border-radius: 5%;
+    box-shadow: 1px 1px 10px rgb(145, 108, 147); */
+    border:2px solid black;
+    border-radius: 5px 5px 5px 5px;
+    /* gap:30px; */
+    animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode:both;
+    /* border: 1px solid black; */
+}
+
+.text{
+    height:10vh;
+    animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-timing-function:ease-in;
+    animation-fill-mode:both;
+    /* color:brown; */
+    /* margin-bottom: 10%; */
+    
+}

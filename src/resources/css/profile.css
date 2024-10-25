@@ -1,0 +1,259 @@
+/* App.css */
+@import url("./shared_animtion.css");
+
+@font-face {
+    font-family: 'Morsey';
+    src: url('../fonts/Morsey\ Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'trophy';
+    src: url('../fonts/Trophy.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+
+/* Container */
+.ProfileContainer{
+    /* border: 5px solid red; */
+    /* position: relative; */
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+}
+.ProfileData{
+    /* border: 2px solid green; */
+    width: 50%;
+    height: fit-content;
+    border-radius: 7px 7px 7px 7px;
+    padding: 1% 2% 2% 2%;
+    box-shadow: 2px 2px 21px rgb(165, 160, 160);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+/* Header */
+.ProfileHeader{
+    width: 30%;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.userName{
+    text-align: center;
+    font-family: trophy;
+    color: rgb(239, 169, 95);
+    margin-bottom: 0%;
+}
+.BioData{
+    width: 90%;
+}
+.BioData .userData{
+    padding: 0%;
+    margin: 0%;
+}
+.ProfilePicDiv{
+    text-align: center;
+}
+.profilePic{
+    background-color: rgb(237, 245, 251);
+    border-radius: 100%;
+    width: 70%;
+    height: auto;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+/* Body */
+.ProfileBody{
+    flex:1;
+    margin-left: 5%;
+    padding: 5%;
+} 
+.ProfileBody .form{
+    display: flex;
+    flex-direction: column;
+}
+.inputDiv{
+    /* border: 2px solid red; */
+    display: flex;
+    /* flex-direction: column; */
+    width: 100%;
+    position: relative;
+    gap: 5%;
+    margin: 1%;
+}
+.inputDiv .profileInput{
+    position: relative;
+    width: 70%;
+    padding: 2%;
+    border-radius: 7px;
+    border: 1px solid rgb(226, 220, 220);
+}
+.inputFileDiv{
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+}
+.inputDiv .Tag, .inputFileDiv .Tag{
+    padding: 0%;
+    margin: 0%;
+    margin-left: 2%;
+    font-weight: bold;
+    font-family: trophy;
+    color: rgb(117, 117, 229);
+}
+.FileInputDiv{
+    position: relative;
+    width: 100%;
+}
+.FileInputDiv .profilePicInput{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    opacity: 0;
+    cursor: pointer;
+}
+.IconBtn{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+    width: 50%;
+    background-color: rgb(143, 218, 198);
+    border-radius: 12px;
+}
+.IconBtn .BtnIcon{
+    width: 30%;
+    height: auto;
+    justify-self: flex-start;
+}
+
+.FileInputDiv .ProxyBtn{
+    margin: 1%;
+    padding: 1%;
+    width: 80%;
+    cursor: pointer;
+    font-family: trophy;
+    border: none;
+    background-color: rgb(143, 218, 198);
+    color: white;
+    border-radius: 12px;
+}
+
+
+/* Footer */
+
+.SubmitBtn{
+    margin: 1%;
+    margin-top: 5%;
+    padding: 1%;
+    width: 30%;
+    cursor: pointer;
+    font-family: trophy;
+    border: none;
+    background-color: rgb(143, 143, 218);
+    color: white;
+    border-radius: 12px;
+
+/*     
+    animation-name: colorChange;
+    animation-duration: 4s ;
+    animation-fill-mode: forwards; */
+}
+
+@keyframes colorChange {
+    from{
+        background-color: red;
+    }
+    to{
+        background-color: greenyellow;
+    }
+}
+
+
+.buttons{
+    /* border:2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height:60vh;
+    width:80%; */
+    gap:0;
+    height:80vh;
+    width:100%;
+    flex-direction: column;
+    /* box-shadow: 2px 2px 21px rgb(165, 160, 160); */
+    /* border-radius: 10%;
+    box-shadow: 1px 1px 20px rgb(145, 108, 147); */
+    animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode:both;
+    /* animation: fadeIn 2s ease-in-out; */
+
+    
+
+}
+
+.connect{
+    /* color:brown; */
+    /* border:2px solid blue; */
+    height:30vh;
+    width:100%;
+    /* border:2px solid blanchedalmond; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    align-self: center;
+    animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode:both;
+    /* margin-top: 2%; */
+    /* animation: fadeIn 2s ease-in-out; */
+
+    color:#0F2167;
+    font-size:4cqmax;
+    font-weight:200;
+   
+    
+
+}
+
+.button-link{
+
+    height:40vh;
+    width:100%;
+    /* border:2px solid rgb(255, 205, 248); */
+    /* border: 2px solid black; */
+   
+    /* background-color: white; */
+    background-color: #f1faee;
+    border-radius: 5px 5px 5px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.extra{
+    height:30vh;
+    width:100%;
+    /* border:2px solid blanchedalmond; */
+}
+
+.text-writer{
+    color:red;
+}
+
+
+
+

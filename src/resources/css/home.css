@@ -1,0 +1,189 @@
+
+@import url("./shared_animtion.css");
+
+@font-face {
+    font-family: 'trophy';
+    src: url('../fonts/Trophy.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Morsey';
+    src: url('../fonts/Morsey\ Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'crasey';
+    src: url('../fonts/CRASEY.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Sunny';
+    src: url('../fonts/SunnyspellsRegular-MV9ze.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Agree';
+    src: url('../fonts/Agree.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.activeBtn{
+    background-color: rgb(228, 228, 228);
+}
+
+.sideMenuLinks{
+    text-decoration: none;
+    color: inherit;
+}
+
+.MainContainer{
+    display: flex;
+}
+
+.AboutME{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border:2px solid black; */
+    /* background-color:#e4cdf4; */
+    height:60vh;
+    width:80%;
+    /* border-radius: 10%;
+    box-shadow: 1px 1px 20px rgb(145, 108, 147);  */
+    /* box-shadow: 10% solid grey; */
+    /* animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-timing-function:ease-in-out;
+    animation-fill-mode:both; */
+    animation: fadeIn 2s ease-in-out;
+}
+
+.Content{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    height:50vh;
+    width:100%;
+    /* border:2px solid black; */
+}
+.div1{
+    height: 50vh;
+    /* width:200px; */
+    width:40vh;
+    border:2px solid black;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 1px 1px 20px rgb(74, 72, 74);
+    /* border:1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform:rotate(-5deg)
+    
+    
+    
+}
+
+.photo{
+    height:50vh;
+    width:38vh;
+    background-image: url('../images/dp\(nobg\).png');
+    background-position: center;
+    background-size: cover;
+    border-radius: 2px solid black;
+    align-self: center;
+    animation: fadeIn 2s ease-in;
+    
+}
+
+.div2{
+    width: auto;
+    /* height: 50vh;
+    width:50%; */
+    /* border:1px solid black; */
+    /* border-radius: 5%; */
+    /* box-shadow: 1px 1px 10px rgb(145, 108, 147); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 50vh;
+    width:50%; */
+    /* border:2px solid black; */
+    
+}
+.bio{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: slideLeft;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode:both;
+    margin-top: 2%;
+    /* color: #1f2833; */
+    color: #03045e;
+    /* font-family: Morsey; */
+    font-family: Agree;
+    
+}
+
+.myself{
+    height:auto;
+    width:auto;
+    /* border:1px solid red; */
+    color:#0F2167;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-size:4cqmax; */
+    /* font-weight:200; */
+    /* display:flex; */
+    /* text-shadow: 3px 2px gray; */
+    
+    
+
+}
+
+
+
+
+
+.outside{
+    height:80vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 1px 1px 10px rgb(145, 108, 147); */
+    /* border: 2px solid black; */
+    /* background-color: hotpink; */
+    border-radius: 7px 7px 7px 7px;
+    /* background-image: url("../images/bg.jpg"); */
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-position: center ;
+    /* background-size: 400% 400%; */
+    
+    /* background-image: url("blackbg.jpg"); */
+    animation: changeBackground 15s infinite;
+    /* background-size: cover;
+    background-position: center; */
+    
+}
+
+/* @keyframes changeBackground {
+    10% {
+        background-image: url('../images/autumn-studio-221wufG10eg-unsplash.jpg');
+    }
+    
+    90% {
+        background-image: url('../images/alexander-grey-62vi3TG5EDg-unsplash.jpg');
+       
+    }
+   
+   
+} */
