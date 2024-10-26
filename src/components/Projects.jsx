@@ -108,13 +108,13 @@ import Typography from '@mui/joy/Typography';
 import Card from '@mui/joy/Card';
 import '../resources/css/project.css'
 import {projectData} from '../Utils/Constants'
-import { ImageAspectRatio } from '@mui/icons-material';
+// import { ImageAspectRatio } from '@mui/icons-material';
 import Typewriter from 'typewriter-effect';
 
 export default function Projects() {
   return (
     <div className="box1">
-      <div className='box2'>
+      <div className='box2' style={{border:'none'}}>
           <Typewriter className='text-writer'
                     options={{
                       cursor:'..',
@@ -125,7 +125,7 @@ export default function Projects() {
           />
       </div>
           <div className="box3">
-              <Box
+              <Box className="mainbox"
                 sx={{
                   display: 'flex',
                   gap: 1,

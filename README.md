@@ -14,7 +14,7 @@ This is a portfolio website built using React, Material UI, and Joy UI. It showc
 
 ## Project Overview
 
-This is a Portfolio Website built using react and node. This Porfolio  consists of different components containing details of contact,resume,social profiles and academics.
+This is a Portfolio Website built using react and node. .Here the user can navigate through the components like Home,Academics,PRojects,Social Profile and Resume.
 
 ## Directory Structure
 
@@ -62,8 +62,8 @@ root/
 
 ### Home Page
 
-- Personalized greeting
-- Resume download button
+- A Brief Introduction
+
 
 ### Profile Page
 
@@ -75,11 +75,11 @@ root/
 
 ### Academics Page
 
-- Timeline of educational background
+- Academic Journey
 
 ### 404 Page
 
-- Custom error page
+- Default page for error/content not found
 - User data fetch (for learning express)
 
 ## Packages Used

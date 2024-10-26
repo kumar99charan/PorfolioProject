@@ -55,7 +55,7 @@
     
 } */
 
-
+@import url("./shared_animtion.css");
 * {
     padding: 0;
     margin: 0;
@@ -87,7 +87,10 @@
     align-items: center;
     justify-content: center;
     align-content: center;
+    animation: fadeIn 2s ease-in-out;
+
 
 }
+
 
  

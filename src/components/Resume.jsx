@@ -1,13 +1,3 @@
-// import React from "react";
-
-// function ResumeComponent() {
-//   return(
-//     <h1>Resume Component</h1>
-//   )
-// }
-
-// export default ResumeComponent;
-
 
 //from here
 
@@ -46,6 +36,7 @@ export default function Resume() {
         // return <div className="loading">Loading...........</div>
         return (
             <Box sx={{ display: 'flex' }}>
+              <h2>Fetching.......</h2>
               <CircularProgress />
             </Box>
           );

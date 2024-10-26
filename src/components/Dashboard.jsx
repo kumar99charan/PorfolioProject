@@ -19,9 +19,7 @@ import { Avatar, Menu, MenuItem, Skeleton, Snackbar, Tooltip } from '@mui/materi
 import { CloseRounded } from '@mui/icons-material';
 import defaultImage from '../resources/images/dp.jpg';
 
-import axios from 'axios';
-
-import bg from '../resources/images/blue.jpg';
+// import axios from 'axios';
 
 // Constants imports
 import { DEFAULT_SIDE_MENU, drawerWidth, IconTitleMap, userProfileDefaultData } from '../Utils/Constants';
@@ -30,7 +28,7 @@ import { DEFAULT_SIDE_MENU, drawerWidth, IconTitleMap, userProfileDefaultData } 
 import { Link, Route, Routes } from 'react-router-dom';
 
 // importing resources
-import userImage from "../resources/images/userImage.jpg"
+// import userImage from "../resources/images/userImage.jpg"
 import "../resources/css/dashboard.css"
 import "../resources/css/shared.css"
 
@@ -113,20 +111,7 @@ const AppBar = styled(MuiAppBar, {
   paddingTop: '1%',
   paddingLeft: '1%',
   boxShadow: 'none',
-  // background: 'linear-gradient(to right , transparent, rgb(241, 21, 135, 0.5))',
-  // background: 'linear-gradient(to right , transparent, #3382a1)',
-  // background: 'linear-gradient(to right , transparent, #E8D0CC)',
   background: 'linear-gradient(to right , transparent, #C6B3B6)',
-  // background: 'linear-gradient(to right , transparent, #E8D7D1)',
-
-
-
-    // background: 'linear-gradient(to right , transparent, rgb(133, 214, 255, 0.5))',
-  // backgroundColor:'#3382a1',
-  // backgroundImage:{bg},
-
-
-  // border: '2px solid red',
   transition: theme.transitions.create(['width', 'margin'], {
     easing: theme.transitions.easing.sharp,
     duration: theme.transitions.duration.leavingScreen,
@@ -163,7 +148,6 @@ export default function Dashboard() {
   const userName= userProfileDefaultData.Name;
   const [dataStatus, setDataStatus]= React.useState(true);
   // const [activeSideMenu, setactiveSideMenu]= React.useState(0)
-  
   
   
 
